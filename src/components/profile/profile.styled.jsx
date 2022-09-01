@@ -44,12 +44,15 @@ grid-template-columns: repeat(3, 1fr);
 align-items: center;
 justify-content: center;
 list-style: none;
-margin-top: auto;
+margin-top: 56px;
+margin-left: -50px;
+margin-right: -50px;
 height: 70px;
 gap: 20px;
 border-top: 1px solid rgb(146, 146, 146);
 background-color: #DCDCDC;
-padding: 0;
+padding: 15px;
+
 `;
 
 export const StatsLi = styled.li`
