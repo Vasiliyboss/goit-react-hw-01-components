@@ -1,24 +1,16 @@
 import { Profile } from './profile/profile';
-import user from '../components/user.json';
-import data from '../components/data.json';
-import friends from '../components/friends.json';
+import {GlobalStyle} from '../components/GlobalStyle'
+import user from '../data/user.json';
+import data from '../data/data.json';
+import friends from '../data/friends.json';
+import transactions from '../data/transactions.json'
 import { Statistics } from '../components/statistics/statistics';
 import { FriendList } from './friends/friends';
 import { TransactionHistory } from '../components/transactionhistory/transactionhistory'
-import transactions from '../components/transactions.json'
+
 export const App = () => {
   return (
-        <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        // fontSize: 30,
-        color: '#010101',
-        background: 'white'
-      }}
-    >
+        <div>
       <Profile
   username={user.username}
   tag={user.tag}
@@ -29,6 +21,7 @@ export const App = () => {
       <Statistics title="UPLOAD STATS" stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />;
+    <GlobalStyle/>
     </div>
      
   );

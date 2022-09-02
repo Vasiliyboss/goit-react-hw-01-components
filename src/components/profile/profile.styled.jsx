@@ -7,6 +7,10 @@ background: white;
 width: 400px;
 font-size: 15px;
 height: 70vh;
+margin-top: 30px;
+margin-right: auto;
+margin-left: auto;
+
 `;
 
 export const Description = styled.div`
@@ -26,6 +30,7 @@ border: 2px solid #797979;
 export const Name = styled.p`
 font-size: 25px;
 font-weight: 500;
+margin-top: 50px;
 `;
 
 export const TagSocailNetwork = styled.p`
@@ -44,7 +49,7 @@ grid-template-columns: repeat(3, 1fr);
 align-items: center;
 justify-content: center;
 list-style: none;
-margin-top: 56px;
+margin-top: 5px;
 margin-left: -50px;
 margin-right: -50px;
 height: 70px;

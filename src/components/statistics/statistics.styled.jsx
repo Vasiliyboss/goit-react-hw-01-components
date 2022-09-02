@@ -4,7 +4,9 @@ background: white;
 border: 1px solid black;
 width: 400px;
 height: auto;
-margin-left: 20px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 30px;
 `;
 
 export const CommonTitle = styled.h2`

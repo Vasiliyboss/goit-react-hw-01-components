@@ -2,7 +2,9 @@ import styled from "styled-components";
 export const ContainerFriends = styled.div`
 border: 1px solid blue;
 background-color: white;
-margin-left: 20px;
+margin-top: 30px;
+margin-right: auto;
+margin-left: auto;
 width: 300px;
 `;
 

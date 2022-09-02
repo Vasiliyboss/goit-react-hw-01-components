@@ -1,8 +1,9 @@
 import styled from "styled-components";
 export const Wrapper = styled.table`
 width: 600px;
-padding-top: 400px;
-padding-left: 20px;
+margin-top: 30px;
+margin-right: auto;
+margin-left: auto;
 `;
 
 export const TransactionTh = styled.th`
